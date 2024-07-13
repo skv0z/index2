@@ -6,29 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
-    <div class="parent">
-        <div class="first">
-            <a href="">Home</a>
-            <a href="">Service</a>
-            <a href="">About us</a>
-            <a href="">Pricing Table</a>
-            <a href="">How it work</a>
-            <a href="">Happy Clients</a>
-            <a href="">Contact us</a>
-        </div>
-        <div class="second">
-            <h1>BOOST UP YOUR LOCAL BUSINESS</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui reiciendis ab doloribus fugiat rem omnis! Molestiae, explicabo quas deserunt unde assumenda temporibus est.</p><br>
-            <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Full Name">
-            <i class="fa-solid fa-envelope"></i>
-            <input type="text" placeholder="Email">
-            <i class="fa-solid fa-phone"></i>
-            <input type="number" placeholder="Phone Number">
-            <button>Request A Quate</button><br>
-        </div>
-    </div>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <button onclick="showWarning()">Submit</button>
+      </form>
+      <script src="index.js"></script>
 </body>
 </html>
